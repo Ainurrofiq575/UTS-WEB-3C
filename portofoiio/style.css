@@ -1,0 +1,43 @@
+body{
+    min-height: 2000px;
+}
+.jumbotron{
+    padding-top: 6rem;
+    background-color: rgb(96, 89, 80);
+}
+
+#Project{
+    background-color: rgb(96, 89, 80);
+    padding-top: 60px;
+}
+
+#profile{
+    padding-top: 60px;
+}
+
+.Contact a {
+    color: black;
+    font-size: 20px;
+}
+
+.watermark{
+    padding-top: 80px;
+}
+
+.conten-item{
+    display: flex;
+    gap: 1.5 ram;
+}
+.contact-item-icon{
+    background: var(--thirBackgrounfColor);
+    width: 53px;
+    height: 53px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-item-icon svg{
+    fill: var(--primaryIconColor);
+}
